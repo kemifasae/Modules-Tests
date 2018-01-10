@@ -19,7 +19,7 @@ describe("Testing the Quadratic Function", function() {
 
     describe("Complex Values", function(){
         it("should throw an error for values for 8,4,2", function() {
-            expect(function(){quad(8,4,2)}).toThrowError(Error, 'One or both of the result is a complex no');
+            expect(function(){quad(8,4,2)}).toThrowError(Error, 'One or both result(s) is a complex no');
         });
 
         it("should return correct valus for 6,2,2", function() {
