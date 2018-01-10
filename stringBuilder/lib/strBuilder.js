@@ -26,9 +26,7 @@ module.exports =  class stringBuilder{
       return this
     }
 
-    //let arrStr = this.str.split(' ')
     this.str.splice(index, 0, new_str);
-    //this.str = arrStr.join(' ')
     return this
   }
 
